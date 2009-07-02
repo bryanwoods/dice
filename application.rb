@@ -3,5 +3,9 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  haml :index
+  haml :one
+end
+
+get '/two' do
+  haml :two
 end
