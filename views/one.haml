@@ -1,13 +1,6 @@
-!!! Strict
-%html
-  %head
-    %title Roll The Dice By Refreshing The Page
-  %body
-    %center
-      %p
-        %img{:src=>"/images/#{1 + rand(6)}.png", :alt=>"Die", :title=>"Die"}
-      %br
-      %br
-      Or would you rather
-      %a{:href=>"/two"} Roll two?
+%p
+  %img{:src=>"/images/#{1 + rand(6)}.png", :alt=>"Die", :title=>"Die"}
+%br
+Or would you rather
+%a{:href=>"/two"} Roll two?
       
