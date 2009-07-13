@@ -9,7 +9,3 @@ end
 get '/two' do
   haml(:two, :format => :html5)
 end
-
-get '/three' do
-  haml(:two, :format => :html5)
-end
