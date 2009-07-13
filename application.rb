@@ -7,5 +7,5 @@ get '/' do
 end
 
 get '/two' do
-  haml :two
+  haml(:two, :format => :html5)
 end
